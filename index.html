@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Boy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+            <img src="https://i.ibb.co/JjzL44LV/shadow-boy-avatar-white-s.png" alt="Shadow Boy Avatar" class="nav-bot-avatar">
+            <span>Shadow Boy</span>
+        </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#commands" class="nav-link">Commands</a></li>
+                <li><a href="#support" class="nav-link">Support</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-icon">
+                <img src="https://i.ibb.co/JjzL44LV/shadow-boy-avatar-white-s.png" alt="Shadow Boy Avatar" class="bot-avatar">
+            </div>
+            <h1 class="hero-title">Shadow Boy</h1>
+            <p class="hero-subtitle">Your Ultimate Discord Companion</p>
+            <div class="hero-buttons">
+                <a href="https://discord.com/oauth2/authorize?client_id=1239483840762875906" class="btn btn-primary">
+                    <i class="fab fa-discord"></i>
+                    Add to Discord
+                </a>
+                <a href="#features" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Powerful Features</h2>
+            <p class="section-subtitle">Everything you need in one Discord bot</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Gaming Tools</h3>
+                    <p>Real-time stock tracking for Blox Fruits and Grow a Garden with price monitoring</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Integration</h3>
+                    <p>Chat with AI models and generate images using advanced AI technology</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Moderation</h3>
+                    <p>Advanced moderation tools with user blocking and message management</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Utilities</h3>
+                    <p>PDF cleaning, YouTube search, and various utility commands</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Trading</h3>
+                    <p>Comprehensive vouch system, price database, and automated trading support with proof verification and middleman tracking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="commands" class="commands">
+        <div class="container">
+            <h2 class="section-title">Commands</h2>
+            <p class="section-subtitle">Explore all available commands</p>
+            
+            <div class="commands-grid" id="commandsGrid">
+                <div class="command-card">
+                    <div class="command-header">
+                        <h3>/stock</h3>
+                        <span class="command-category gaming">Gaming</span>
+                    </div>
+                    <p>Check real-time Blox Fruits stock with current prices and availability</p>
+                    <div class="command-usage">Usage: /stock</div>
+                </div>
+                
+                <div class="command-card">
+                    <div class="command-header">
+                        <h3>/stock-gag</h3>
+                        <span class="command-category gaming">Gaming</span>
+                    </div>
+                    <p>Check Grow a Garden stock including seeds, gear, and eggs</p>
+                    <div class="command-usage">Usage: /stock-gag</div>
+                </div>
+                
+                <div class="command-card">
+                    <div class="command-header">
+                        <h3>/check_asset</h3>
+                        <span class="command-category gaming">Gaming</span>
+                    </div>
+                    <p>Verify if a Roblox user owns a specific asset or gamepass</p>
+                    <div class="command-usage">Usage: /check_asset &lt;username&gt; &lt;asset_id&gt;</div>
+                </div>
+                
+                <div class="command-card">
+                    <div class="command-header">
+                        <h3>/ask_chatgpt</h3>
+                        <span class="command-category ai">AI & Chat</span>
+                    </div>
+                    <p>Chat with AI using multiple models including OpenAI, Mistral, and SearchGPT</p>
+                    <div class="command-usage">Usage: /ask_chatgpt &lt;prompt&gt; [model]</div>
+                </div>
+                
+                <div class="command-card">
+                    <div class="command-header">
+                        <h3>/imagine</h3>
+                        <span class="command-category ai">AI & Chat</span>
+                    </div>
+                    <p>Generate high-quality images from text descriptions using AI</p>
+                    <div class="command-usage">Usage: /imagine &lt;prompt&gt; [model]</div>
+                </div>
+                
+                <div class="command-card">
+                    <div class="command-header">
+                        <h3>/tictac</h3>
+                        <span class="command-category fun">Fun</span>
+                    </div>
+                    <p>Play Tic Tac Toe against AI or challenge another user</p>
+                    <div class="command-usage">Usage: /tictac [opponent]</div>
+                </div>
+                
+
+                <div class="command-card">
+                    <div class="command-header">
+                        <h3>/clean-pdf</h3>
+                        <span class="command-category utility">Utility</span>
+                    </div>
+                    <p>Remove pen marks and annotations from PDF files</p>
+                    <div class="command-usage">Usage: /clean-pdf &lt;attachment&gt;</div>
+                </div>
+                
+                <div class="command-card">
+                    <div class="command-header">
+                        <h3>/youtube-search</h3>
+                        <span class="command-category utility">Utility</span>
+                    </div>
+                    <p>Search YouTube videos with interactive results</p>
+                    <div class="command-usage">Usage: /youtube-search &lt;query&gt;</div>
+                </div>
+                
+                <div class="command-card">
+                    <div class="command-header">
+                        <h3>/purge</h3>
+                        <span class="command-category admin">Admin</span>
+                    </div>
+                    <p>Delete multiple messages from a channel (Admin only )</p>
+                    <div class="command-usage">Usage: /purge &lt;amount&gt;</div>
+                </div>
+                
+                <div class="command-card">
+                    <div class="command-header">
+                        <h3>/block</h3>
+                        <span class="command-category admin">Admin</span>
+                    </div>
+                    <p>Block a user from using the bot with role assignment</p>
+                    <div class="command-usage">Usage: /block &lt;user&gt; [reason]</div>
+                </div>
+                
+                <div class="command-card">
+                    <div class="command-header">
+                        <h3>/vouch</h3>
+                        <span class="command-category trading">Trading</span>
+                    </div>
+                    <p>Vouch for a user after a successful trade with proof support</p>
+                    <div class="command-usage">Usage: /vouch &lt;user&gt; &lt;reason&gt; [proof] [middleman]</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="support" class="support">
+        <div class="container">
+            <h2 class="section-title">Need Help?</h2>
+            <p class="section-subtitle">Get support from our community</p>
+            
+            <div class="support-buttons">
+                <a href="https://discord.com/oauth2/authorize?client_id=1239483840762875906" class="btn btn-primary">
+                    <i class="fab fa-discord"></i>
+                    Join Discord Server
+                </a>
+                <a href="https://discord.com/users/1069432037972394006" class="btn btn-secondary">
+                    <i class="fas fa-user"></i>
+                    Contact Owner
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                        <div class="footer-logo">
+            <img src="https://i.ibb.co/JjzL44LV/shadow-boy-avatar-white-s.png" alt="Shadow Boy Avatar" class="footer-bot-avatar">
+            <span>Shadow Boy</span>
+        </div>
+                <p>&copy; 2025 Shadow Boy Discord Bot. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
